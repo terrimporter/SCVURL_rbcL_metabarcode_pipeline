@@ -90,7 +90,7 @@ https://github.com/terrimporter/rbcLClassifier .  Take note of where the rRNAcla
 ```linux
 RDP:
     jar: "/path/to/rdp_classifier_2.12/dist/classifier.jar"
-    t: "/path/to/rbcLClassifier/v1//mydata/mydata_trained/rRNAClassifier.properties"
+    t: "/path/to/rbcLClassifier/v1/mydata/mydata_trained/rRNAClassifier.properties"
 ```
 
 4. In most cases, your raw paired-end Illumina reads can go into a directory called 'data' which should be placed in the same directory as the other files that come with this pipeline.
