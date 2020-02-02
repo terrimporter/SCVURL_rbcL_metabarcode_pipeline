@@ -121,14 +121,6 @@ Run snakemake by indicating the number of jobs or cores that are available to ru
 snakemake --jobs 24 --snakefile snakefile --configfile config.yaml
 ```
 
-You can view read number and length (min, max, mean, median, mode) statistics for each sample at steps of the bioinformatic pipeline.  A simple report can be generated like so, modify to summarize reports for different bioinformatic steps (raw reads, paired reads, primer trimmed reads):
-
-```linux
-# Generate a report for raw R1 reads
-cd stats/raw/R1
-cat *.stats > R1.stats
-```
-
 When you are done, deactivate the conda environment:
 
 ```linux
@@ -214,4 +206,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 I would like to acknowedge funding from the Canadian government through the Genomics Research and Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: January 14, 2020
+Last updated: February 2, 2020
