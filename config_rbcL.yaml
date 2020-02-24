@@ -103,7 +103,8 @@ ORFFINDER:
 
 # genetic code
 # 5 = invertebrate mitochondrial, see NCBI for additional genetic codes
-# 1 = standard code
+# 1 = standard code, use this for green plant chloroplast sequences
+# 11 = bacterial, archaeal, plant plastid code, use for diatom chloroplast sequences
     g: 1
 
 # ORF start codon to use
@@ -146,6 +147,7 @@ VSEARCH_TABLE:
 # Uses the RDP classifier
 # Do not use old RDP classifier v2.2 from conda, install the newer v2.12 from SourceForge https://sourceforge.net/projects/rdp-classifier/
 # rbcL Classifier v1 based on sequences mined from GenBank is compatible with the RDP classifier is available from GitHub https://github.com/Hajibabaei-Lab/SCVURL_rbcL_metabarcode_pipeline
+# rbcL Diatom Classifier v1 based on curated barcode sequences from INRA (Rimet et al., 2016 Database) is available from https://github.com/terrimporter/rbcLdiatomClassifier
 
 RDP:
     jar: "/path/to/rdp_classifier_2.12/dist/classifier.jar"
@@ -158,6 +160,7 @@ RDP:
 # Add amplicon name to Zotu to keep these ids unique when data from many amplicons are combined
 # The pattern will prefix the Zotu with the amplicon name
 # Ex. sed -e 's/^/amplicon_/g' infile > outfile
-# Below, enter the substitution pattern for sed to use (the part in single quotes above)
+# Below, enter the substitution pattern for sed to use (the part in single quotes above) 
+# ex. "rbcL_" or "rbcLdiatom_"
 
 SED: 's/^/rbcL_/g'
