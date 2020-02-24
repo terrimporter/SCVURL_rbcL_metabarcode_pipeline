@@ -1,7 +1,7 @@
 # Configuration file for SCVURLv1
 
 # Author: Teresita M. Porter
-# Date: January 14, 2020
+# Date: January 24, 2020
 
 ############################################################################
 # General pipeline settings
@@ -79,9 +79,9 @@ CUTADAPT_REV:
 ############################################################################
 
 # Indicate a directory name here that is short and simple with no spaces or weird punctuation
-# For the standard pipeline, a good directory name would be the amplicon, ex. "Diat_rbcL"
+# For the standard pipeline, a good directory name would be the amplicon, ex. "Diat_rbcL", "rbcL"
 
-dir: "Diat_rbcL"
+dir: "rbcL"
 
 ############################################################################
 # Denoising
@@ -103,7 +103,8 @@ ORFFINDER:
 
 # genetic code
 # 5 = invertebrate mitochondrial, see NCBI for additional genetic codes
-    g: 5
+# 1 = standard code
+    g: 1
 
 # ORF start codon to use
 # 0 = ATG only
