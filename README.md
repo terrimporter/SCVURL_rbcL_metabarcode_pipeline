@@ -48,7 +48,7 @@ rule taxonomic_assignment:
 
 An ESV table that tracks read number for each ESV (longest open reading frame) sample is generated with VSEARCH.
 
-rbcL cpDNA taxonomic assignments are made using the Ribosomal Database classifier v2.12 (RDP classifier) available from https://sourceforge.net/projects/rdp-classifier/ (Wang et al., 2007) using the rbcL classifier v1 reference dataset available from https://github.com/terrimporter/rbcLClassifier .
+rbcL cpDNA taxonomic assignments are made using the Ribosomal Database classifier v2.12 (RDP classifier) available from https://sourceforge.net/projects/rdp-classifier/ (Wang et al., 2007) using the rbcL eukaryote classifier v1 reference dataset available from https://github.com/terrimporter/rbcLClassifier or the rbcL diatom classifier v1 reference dataset available from https://github.com/terrimporter/rbcLdiatomClassifier .
 
 The final output is reformatted to add read numbers for each sample and column headers to improve readability.
 
