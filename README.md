@@ -204,6 +204,8 @@ Edgar, R. C. (2016). UNOISE2: improved error-correction for Illumina 16S and ITS
 
 Gergely, S. (2018, January). Perl-rename. Retrieved from https://github.com/subogero/rename  
 
+Maitland, V. C., Robinson, C. V., Porter, T. M., & Hajibabaei, M. (2020). Freshwater diatom biomonitoring through benthic kick-net metabarcoding. BioRxiv, doi: 10.1101/2020.05.25.115089
+
 Martin, M. (2011). Cutadapt removes adapter sequences from high-throughput sequencing reads. EMBnet. Journal, 17(1), pp–10. 
 
 Rognes, T., Flouri, T., Nichols, B., Quince, C., & Mahé, F. (2016). VSEARCH: a versatile open source tool for metagenomics. PeerJ, 4, e2584. doi:10.7717/peerj.2584  
