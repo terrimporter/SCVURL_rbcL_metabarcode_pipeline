@@ -16,6 +16,12 @@ This data flow has been developed using a conda environment and snakemake pipeli
 
 [Acknowledgements](#acknowledgements)  
 
+## How to cite:
+
+If you use this pipeline or scripts in your work, please cite:
+
+Maitland, V. C., Robinson, C. V., Porter, T. M., & Hajibabaei, M. (2020). Freshwater diatom biomonitoring through benthic kick-net metabarcoding [Preprint]. doi: 10.1101/2020.05.25.115089
+
 ## Standard pipeline
 
 ### Overview of the standard pipeline
@@ -212,4 +218,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 I would like to acknowedge funding from the Canadian government through the Genomics Research and Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: February 2, 2020
+Last updated: June 3, 2020
