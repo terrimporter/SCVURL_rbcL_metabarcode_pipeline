@@ -20,7 +20,7 @@ This data flow has been developed using a conda environment and snakemake pipeli
 
 If you use this pipeline or scripts in your work, please cite:
 
-Maitland, V. C., Robinson, C. V., Porter, T. M., & Hajibabaei, M. (2020). Freshwater diatom biomonitoring through benthic kick-net metabarcoding [Preprint]. doi: 10.1101/2020.05.25.115089
+Maitland, V. C., Robinson, C. V., Porter, T. M., & Hajibabaei, M. (2020). Freshwater diatom biomonitoring through benthic kick-net metabarcoding. BioRxiv, doi: 10.1101/2020.05.25.115089
 
 ## Standard pipeline
 
