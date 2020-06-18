@@ -52,13 +52,11 @@ rule taxonomic_assignment:
         chimera_out
 ```
 
-An ESV table that tracks read number for each ESV (longest open reading frame) sample is generated with VSEARCH.
+An ESV table that tracks read number for each ESV (longest open reading frame) sample is generated with VSEARCH.  The command --search_exact is used instead of --usearch_global with --id 1.0 because search_exact is faster and optimized for finding exact matches.
 
 rbcL cpDNA taxonomic assignments are made using the Ribosomal Database classifier v2.12 (RDP classifier) available from https://sourceforge.net/projects/rdp-classifier/ (Wang et al., 2007) using the rbcL eukaryote classifier v1 reference dataset available from https://github.com/terrimporter/rbcLClassifier or the rbcL diatom classifier v1 reference dataset available from https://github.com/terrimporter/rbcLdiatomClassifier .
 
-The final output is reformatted to add read numbers for each sample and column headers to improve readability.
-
-Statistics are provided for various steps of the program are also provided.
+The final output, rdp.csv, is reformatted to add read numbers for each sample and column headers to improve readability.  Read counts for each ESV and each sample are provided in addition to taxonomic assignments with bootstrap support values.  rdp.csv can be read into R, filtered, reformatted, and reshaped to create an ESV x sample matrix filled with read counts for standard biodiversity analyses.
 
 ### Prepare your environment to run the pipeline
 
@@ -220,4 +218,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 I would like to acknowedge funding from the Canadian government through the Genomics Research and Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: June 3, 2020
+Last updated: June 18, 2020
