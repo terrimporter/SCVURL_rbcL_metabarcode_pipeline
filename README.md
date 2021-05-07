@@ -28,7 +28,7 @@ You can cite the publication:
 Maitland, V. C., Robinson, C. V., Porter, T. M., & Hajibabaei, M. (2020). Freshwater diatom biomonitoring through benthic kick-net metabarcoding. PLOS ONE, 15(11), e0242143. doi: 10.1371/journal.pone.0242143  
 
 You can also cite this repository directly:  
-SCVURL rbcL Metabarcode Pipeline, DOI: 10.5281/zenodo.4741501  
+Teresita M. Porter. (2020, January 14). SCVURL RbcL Metabarcode Pipeline (Version v1.0.4). Zenodo. http://doi.org/10.5281/zenodo.4741501   
 
 ## Standard pipeline
 
