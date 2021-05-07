@@ -1,5 +1,7 @@
 # README
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4741501.svg)](https://doi.org/10.5281/zenodo.4741501)  
+
 **This pipeline has been replaced with MetaWorks: A flexible, scalable bioinformatic pipeline for multi-marker biodiversity assessments available from https://github.com/terrimporter/MetaWorks**
 
 This repository processes rbcL metabarcodes. **SCVURL** refers to the programs, algorithms, and reference datasets used in this data flow: **S**EQPREP, **C**UTADAPT, **V**SEARCH, **U**NOISE, **R**bc**L** classifier. 
@@ -10,6 +12,8 @@ This data flow has been developed using a conda environment and snakemake pipeli
 
 ## Outline
 
+[How to cite](#How-to-cite)  
+
 [Standard pipeline](#standard-pipeline)  
 
 [Implementation notes](#implementation-notes)  
@@ -18,11 +22,13 @@ This data flow has been developed using a conda environment and snakemake pipeli
 
 [Acknowledgements](#acknowledgements)  
 
-## How to cite:
+## How to cite
 
-If you use this pipeline or scripts in your work, please cite:
+You can cite the publication:  
+Maitland, V. C., Robinson, C. V., Porter, T. M., & Hajibabaei, M. (2020). Freshwater diatom biomonitoring through benthic kick-net metabarcoding. PLOS ONE, 15(11), e0242143. doi: 10.1371/journal.pone.0242143  
 
-Maitland, V. C., Robinson, C. V., Porter, T. M., & Hajibabaei, M. (2020). Freshwater diatom biomonitoring through benthic kick-net metabarcoding. BioRxiv, doi: 10.1101/2020.05.25.115089
+You can also cite this repository directly:  
+SCVURL rbcL Metabarcode Pipeline, DOI: 10.5281/zenodo.4741501  
 
 ## Standard pipeline
 
@@ -204,7 +210,7 @@ Edgar, R. C. (2016). UNOISE2: improved error-correction for Illumina 16S and ITS
 
 Gergely, S. (2018, January). Perl-rename. Retrieved from https://github.com/subogero/rename  
 
-Maitland, V. C., Robinson, C. V., Porter, T. M., & Hajibabaei, M. (2020). Freshwater diatom biomonitoring through benthic kick-net metabarcoding. BioRxiv, doi: 10.1101/2020.05.25.115089
+Maitland, V. C., Robinson, C. V., Porter, T. M., & Hajibabaei, M. (2020). Freshwater diatom biomonitoring through benthic kick-net metabarcoding. PLOS ONE, 15(11), e0242143. doi: 10.1371/journal.pone.0242143  
 
 Martin, M. (2011). Cutadapt removes adapter sequences from high-throughput sequencing reads. EMBnet. Journal, 17(1), pp–10. 
 
@@ -220,4 +226,4 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 
 I would like to acknowedge funding from the Canadian government through the Genomics Research and Development Initiative (GRDI), Metagenomics-Based Ecosystem Biomonitoring (Ecobiomics) project.
 
-Last updated: July 16, 2020
+Last updated: May 6, 2021
